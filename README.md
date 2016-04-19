@@ -1,6 +1,6 @@
 ### ШРИ 2016 (Задание №1)
 Описание задания можно посмотреть [здесь](https://academy.yandex.ru/events/frontend/shri_msk-2016/#test "Задание №1 Яндекс ШРИ 2016").
-
+Ссылка на gh-pages: [Телепрограмма](http://artemluchin.github.io/yandex-task-1/)
 #### Ресурсы, используемые при выполнении задачи
 1. JSON файл, конвертированный из XML, с программой передач на неделю. Источник: [teleguide.info](http://www.teleguide.info/ "Телегид").
 
