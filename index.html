@@ -1,0 +1,37 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Телепрограмма</title>
+  <link rel="stylesheet" href="dist/css/styles.css" type="text/css" />
+</head>
+<body>
+  <div class="container">
+    <div class="filters">
+      <div class="filters__days"></div>
+      <div class="filters__days-select">
+        <select></select>
+      </div>
+      <div class="filters__genres">
+        <div data-genre="info" class="filters__genres-item filters__genres-info">Инфо</div>
+        <div data-genre="movies" class="filters__genres-item filters__genres-movies">Фильмы</div>
+        <div data-genre="series" class="filters__genres-item filters__genres-series">Сериалы</div>
+      </div>
+      <div class="filters__genres-select">
+        <select>
+          <option value="">Все жанры</option>
+          <option value="info">Инфо</option>
+          <option value="movies">Фильмы</option>
+          <option value="series">Сериалы</option>
+        </select>
+      </div>
+    </div>
+    <div class="grid">
+      <div class="grid__list"></div>
+    </div>
+  </div>
+<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+<script type="text/javascript" src="dist/js/app.min.js"></script>
+</body>
+</html>
